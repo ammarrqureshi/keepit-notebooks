@@ -1,0 +1,35 @@
+:root {
+  --primary-color: brown;
+  --primary-light: #af3737;
+  --secondary-color: #c3d898;
+  --secondary-light: #cddea9;
+  --white: #f0f0f0;
+  --black: #0d0d0d;
+  --grey: #0d0d0dec;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  padding-left: 5%;
+}
+a {
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.fixed-bottom{
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+}

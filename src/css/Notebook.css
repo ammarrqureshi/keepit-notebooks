@@ -1,0 +1,97 @@
+.notebook {
+  background-color: gainsboro;
+  display: block;
+  max-width: 30%;
+  /* min-width: 200px; */
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+.notebook h3 {
+  font-weight: 700;
+}
+
+.notebook-action {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 20px;
+  padding: 10px 0px;
+}
+.notebook-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: space-around;
+  /* padding: 10px 20px; */
+}
+
+
+  @media (min-width: 560px) {
+    .notebook-container{
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+
+    
+  
+}
+
+.notebook-editor {
+  /* background-color: red; */
+  display: inline-block;
+  width: auto;
+  border: 2px solid var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 20px/20px;
+  /* min-width: 300px; */
+}
+.notebook-form {
+  min-width: 500px;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.notebook-form input {
+  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-control.invalid-input {
+  border-bottom: 1px solid red;
+}
+::placeholder {
+  color: red;
+  opacity: 0.6;
+}
+
+.notebook-form input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.notebook-filter {
+  width: 100%;
+}
+.notebook-filter select {
+  outline: none;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+}
+
+.chart-bar {
+  width: 100%;
+  background-color: grey;
+  min-height: 20px;
+}
